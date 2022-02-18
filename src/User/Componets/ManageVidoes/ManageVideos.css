@@ -1,0 +1,33 @@
+.ManageChannel{
+    display: flex;
+}
+.maindiv{
+    flex: 0.9;
+    min-width:50rem;
+
+}
+.optui {
+    display:flex;
+justify-content: space-between;    
+}.visibility{
+    display:flex;
+    justify-content: space-between;  
+}
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ggg{
+    border:none;
+    width: 100%;  
+    margin: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px ;  
+}

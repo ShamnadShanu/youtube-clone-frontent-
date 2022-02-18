@@ -1,0 +1,15 @@
+.recomentedVideo-c{
+    flex: 0.9;
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    padding-bottom: 0;  
+}
+.recomentedVideo-c > h5{
+margin-bottom: 20px;
+}
+.recomentedVideo_videos-c{
+ display: flex;
+ flex-wrap:wrap;
+ align-items: center;
+ justify-content: center;
+}

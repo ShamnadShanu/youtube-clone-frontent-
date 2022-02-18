@@ -1,0 +1,155 @@
+.watch__page {
+    flex: 0.9;
+    background-color:#f9f9f9;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.video_area {
+    flex: 0.7;
+    max-width:55rem;
+    height: auto;
+    min-width: 55rem;
+  }
+  .flexer {
+      margin: 0;
+      margin-top: 10px;
+      display: flex;
+  }
+  .start {
+      display: flex;
+      flex: 0.7;
+      align-items: flex-start;
+  }
+  .end {
+    display: flex;
+    flex: 0.3; 
+    align-items: flex-end; 
+    justify-content: space-evenly;
+  }
+  .flexer span {
+      margin: 0;
+  }
+  .video-info h1 {
+      font-weight: 400;
+      font-size:x-large;
+      margin: 0;
+  }
+  .video-info hr {
+    border-top: 1px solid grey;
+  }
+  .video-info {
+    flex: 0.7;
+      margin-top: 10px;
+      max-width:100%;
+
+  }
+  /* @media (max-width:520px){
+      .container_v video {
+          width: 400px;
+      }
+  }
+  @media (max-width:510px){
+      .container_v video {
+          width: 400px;
+      }
+  }
+  @media (max-width:500px){
+      .container_v video {
+          width: 400px;
+      }
+  }
+  @media (max-width:490px){
+      .container_v video {
+          width: 400px;
+      }
+  }
+  @media (max-width:480px){
+      .container_v video {
+          width: 400px;
+      }
+  }
+  @media (max-width:370px){
+      .container_v video {
+          width: 100%;
+      }
+  } */
+  
+  .videoCard_info-w {
+    display: flex;
+    margin-right: 30px;
+  }
+  .videoCard_avatar-w {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .video_text-w {
+    margin-left: 15px;
+    flex: 0.7;
+  }
+  .video_text-end {
+      flex: 0.3;
+  }
+  .video_text-w > h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    height: auto;
+  }
+  .video_text-w > p {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .subcribe_button {
+      background-color: red !important;
+      color: #fff !important;
+      height:45px !important;
+      max-width: 150px !important;
+      width: 150px !important;
+  }
+  .subcribed_button {
+    background-color :grey !important;
+    color:rgb(56, 55, 55) !important;
+    height:45px !important;
+    max-width: 150px !important;
+    width: 150px !important;
+
+  }
+  .hoverr :hover {
+      cursor: pointer;
+  }
+  .modal{
+      overflow: auto;
+      width: 100%;
+        height: auto;
+        background-color:red;
+  }
+  .show {
+      margin: 0;
+      margin-top: 10px;
+    color: black !important;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .video_div {
+      display: flex;
+      flex-direction: column;
+  }
+  .pooop{
+    color: #fff !important;
+    background-color: rgb(0, 81, 255) !important;
+  }
+  .poop{
+    color: #fff !important;
+    background-color:rgb(255, 102, 0) !important; 
+  }
+  .peop{
+    color: #fff !important;
+    background-color:rgb(0, 89, 255) !important; 
+  }

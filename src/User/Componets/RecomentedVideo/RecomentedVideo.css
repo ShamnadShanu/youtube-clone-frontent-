@@ -1,0 +1,14 @@
+.recomentedVideo{
+    flex: 0.85;
+    min-width:60rem;
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    padding-bottom: 0;  
+}
+.recomentedVideo > h5{
+margin-bottom: 20px;
+}
+.recomentedVideo_videos{
+ display: flex;
+ flex-wrap:wrap;
+}

@@ -1,0 +1,24 @@
+.recomentedVideo-s{
+    flex: 0.85;
+    min-width:60rem;
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    padding-bottom: 0;  
+}
+.recomentedVideo-s > h5{
+margin-bottom: 20px;
+margin-left: 10px;
+}
+.recomentedVideo-s hr{
+    margin:0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-bottom:solid 1px black;
+}
+
+/* .dont {
+    color: black !important;
+  }
+  .dont :hover {
+    color: black !important;
+  } */

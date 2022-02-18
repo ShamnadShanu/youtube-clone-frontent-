@@ -1,0 +1,46 @@
+.related_videos{
+flex: 1;
+min-width: 23rem;}
+.dont {
+    flex: 0.3;
+    color: black;
+}
+.related {
+    margin-top: 20px;
+    max-width: 100%;
+    display: flex;
+}
+.related_videothumbanail {
+    /* flex: 0.4; */
+    margin-left: 10px;
+}
+.related_videothumbanail img {
+    width:200px;
+    height: 100px;
+}
+.videoRow__text {
+    /* flex: 0.5; */
+   max-width:100%;
+}
+/* .videoRow__text >h5 {
+} */
+/* .don :hover {
+    cursor: pointer;
+    color: black;
+}
+*/
+.videoRow__tex h5,p{
+margin:0;
+margin: 10px;
+color: black;
+}
+.hr{
+border-top: 1px solid black;
+}
+@media (max-width:1380px){
+    .dont {
+        flex: 0.7;
+        color: black;
+        min-width: 100%;
+    }
+}

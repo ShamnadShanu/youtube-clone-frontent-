@@ -1,0 +1,35 @@
+.videoRow{
+    display: flex;
+    margin-bottom: 30px;
+    width:100%;
+}
+.videoRow img {
+    /* object-fit: contain; */
+    margin-left: 20px;
+    min-width: 270px;
+   min-height: 140px;
+    max-width: 270px;
+   max-height: 140px;
+}
+.videoRow__text {
+    margin-left: 14px;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+.videoRow__headline {
+    font-size: 12px;
+    color:#606060;
+}
+.videoRow__description {
+margin-top: 20px;
+font-size: 12px;
+color: #606060;
+}
+.videoRow__subCount {
+    font-weight: bolder;
+    color:rgb(84,157,211) ;
+}
+.videoRow__subs {
+    background-color:lightgray;
+  padding: 2px;  
+}

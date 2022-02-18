@@ -1,0 +1,33 @@
+.searchPage{
+    display: flex;
+}
+.search_body {
+    flex: 0.8;
+    background-color:#f9f9f9;
+    padding: 20px 20px;
+    min-width: 50rem;
+}
+.search__filter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+}
+.search__filter > h2 {
+margin-left: 10px;
+}
+.search_body >hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    min-width: 10px;
+    margin-bottom: 10px;
+}
+.noresult{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-small;
+    margin-top: 30vh;
+
+}

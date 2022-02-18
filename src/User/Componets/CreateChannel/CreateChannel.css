@@ -1,0 +1,55 @@
+.create_channel h2,p{
+    font-size: medium;
+margin: 0;
+}
+.create_channel hr{
+    border-top: 1px solid grey;
+}
+.channel_img{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    align-self:center;
+
+}
+.profile_label{
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.create_channel{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.channel_name{
+    border: 1 solid silver;
+    margin-top: 10px;
+    width: 40vw;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px ;
+}
+.footer{
+    font-weight: 500;
+    margin-top:13%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.footer hr {
+    border-top: 1px solid grey;
+}

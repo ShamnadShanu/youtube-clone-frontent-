@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    
+}
+.container-s{
+    background-color: rgb(248, 108, 108);
+    font-family: sans-serif;
+height:25rem;
+}
+.signup_form> h1{
+    color:gray;
+} 
+.exist{
+    color: red;
+}
+.signup_form{
+    box-shadow: 3px 3px 15px;
+    height: 460px;
+    min-width: 20rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 25px;
+    border-width: 1px;
+border-style: solid;    
+
+}
+
+
+.form_input input{
+ border-radius: 5px;
+ border: 1 solid silver;
+ width: 80%;  
+ margin: 12px;
+ padding: 15px;
+ box-sizing: border-box;
+ border-radius: 20px ;
+
+}
+.login_button{
+    background-color:  rgb(248, 108, 108);
+    text-align: center;
+    width: 80px;
+    height: 35px;
+    color:#fff;
+    border-radius: 10px;
+
+}
+.facebook{
+    margin-left: 10px;
+    padding-top: 7px;
+    width: 90px;
+    height: 50px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 49, 255);
+}
+.google > {
+    border-radius: 30px;
+   
+    
+}

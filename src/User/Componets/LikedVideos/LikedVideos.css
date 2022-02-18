@@ -1,0 +1,18 @@
+.liked_videos{
+    flex: 0.9;
+    min-width: 60rem;
+
+}
+.liked_videos >h3{
+    margin:0;
+    margin-left: 20px;
+    color: rgb(97, 93, 93);
+    font-size: medium;
+
+}
+.liked_videos hr{
+    margin:0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-bottom:solid 1px black;
+}
