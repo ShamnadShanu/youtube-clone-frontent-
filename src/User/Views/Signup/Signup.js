@@ -159,7 +159,7 @@ function Signup() {
       <div className="signup_form">
         <h1>SIGNUP PAGE</h1>
         <GoogleLogin
-          clientId="1049478099659-tqnfn81cvjjsj84ajiup3r95am1tb6ou.apps.googleusercontent.com"
+          clientId="388631232662-2t0luoa6p5ng7pc3tiao1ja2umv5h915.apps.googleusercontent.com"
           buttonText="Signup"
           className="google"
           onSuccess={responseGoogle}
