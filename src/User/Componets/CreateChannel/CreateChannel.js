@@ -9,7 +9,7 @@ import { server } from "../../../server";
 function CreateChannel(props) {
     const config={
         headers:{
-            "Content-Type":"multipart/form-data"
+            "content-type":"multipart/form-data"
         }
     }
     let history=useHistory()
