@@ -85,6 +85,7 @@ setBlock("This account is blocked")
       });
   };
   const responseGoogle = (response) => {
+    console.log(response,'lllllllllllllll');
     const headers = {
       "Content-Type": "application/json",
     };
@@ -154,6 +155,9 @@ setBlock("This account is blocked")
       }
     });
   };
+  let errorGoogle=()=>{
+    console.log('somthing wrong with google');
+  }
 
   return (
     <div className="container">
@@ -165,7 +169,7 @@ setBlock("This account is blocked")
             buttonText="Login"
             className="my_google"
             onSuccess={responseGoogle}
-            onFailure={responseGoogle}
+            onFailure={errorGoogle}
             cookiePolicy={"single_host_origin"}
           />
           <FacebookLogin
