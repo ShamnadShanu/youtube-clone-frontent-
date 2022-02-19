@@ -49,7 +49,7 @@ function CreateChannel(props) {
             // data.append("token",localStorage.getItem("token"))
             console.log(channelIMG);
             console.log(data,"data");
-            axios.post(server+'/createChannel',data).then((data)=>{
+            axios.post(server+'/createChannel',data,config).then((data)=>{
                   if(data.data){
                       history.push("/channel")
                   }else{
