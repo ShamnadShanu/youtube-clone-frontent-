@@ -1,4 +1,4 @@
 module.exports={
 //server:"http://localhost:8000"
-server:"https://y-clone.xyz"
+server:"https://y-clone.cf"
 }
